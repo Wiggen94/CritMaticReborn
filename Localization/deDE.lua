@@ -1,0 +1,1 @@
+-- (German) localization for deDE clients.

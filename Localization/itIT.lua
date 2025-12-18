@@ -1,0 +1,1 @@
+-- (Italian) Localization file for itIT clients.

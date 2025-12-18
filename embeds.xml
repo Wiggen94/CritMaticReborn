@@ -1,0 +1,57 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <!-- Libraries -->
+    <Script file="Libs\LibStub\LibStub.lua"/>
+    <Script file="Libs\LibSharedMedia-3.0\CallbackHandler-1.0\CallbackHandler-1.0.lua"/>
+    <Include file="Libs\AceAddon-3.0\AceAddon-3.0.xml"/>
+    <Include file="Libs\AceConsole-3.0\AceConsole-3.0.xml"/>
+    <Include file="Libs\AceComm-3.0\AceComm-3.0.xml"/>
+    <Include file="Libs\AceTimer-3.0\AceTimer-3.0.xml"/>
+    <Include file="Libs\AceEvent-3.0\AceEvent-3.0.xml"/>
+    <Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
+    <Include file="Libs\AceConfig-3.0\AceConfig-3.0.xml"/>
+    <Include file="Libs\AceDB-3.0\AceDB-3.0.xml"/>
+    <Include file="Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml"/>
+    <Include file="Libs\LibSharedMedia-3.0\lib.xml"/>
+    <Include file="Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml"/>
+
+    <!-- Localization -->
+    <Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
+    <Script file="Localization\enUS.lua"/>
+    <Script file="Localization\deDE.lua"/>
+    <Script file="Localization\esES.lua"/>
+    <Script file="Localization\esMX.lua"/>
+    <Script file="Localization\frFR.lua"/>
+    <Script file="Localization\itIT.lua"/>
+    <Script file="Localization\koKR.lua"/>
+    <Script file="Localization\ptBR.lua"/>
+    <Script file="Localization\ruRU.lua"/>
+    <Script file="Localization\zhCN.lua"/>
+    <Script file="Localization\zhTW.lua"/>
+
+    <Script file="Modules\CritMaticSharedMedia.lua"/>
+    <Script file="Modules\CritMaticDB.lua"/>
+
+    <!-- API Compatibility Layer (must load before core) -->
+    <Script file="Modules\CritMaticAPI.lua"/>
+
+    <!-- Core Addon Script -->
+    <Script file="CritMatic.lua"/>
+    <!-- Settings Modules -->
+    <Script file="Modules\optionParts\GeneralSettings.lua"/>
+    <Script file="Modules\optionParts\AlertFontSettings.lua"/>
+    <Script file="Modules\optionParts\SoundSettings.lua"/>
+    <Script file="Modules\optionParts\SocialSettings.lua"/>
+    <Script file="Modules\optionParts\IgnoredSpellsSettings.lua"/>
+    <Script file="Modules\optionParts\ChangeLogSettings.lua"/>
+    <Script file="Modules\CritMaticOptions.lua"/>
+
+    <Script file="MessageFrame.lua"/>
+
+
+    <!-- Additional Scripts and Modules -->
+
+    <Script file="Modules\CritLog.lua"/>
+    <Script file="Modules\ChangeLogPopUp.lua"/>
+
+</Ui>
+

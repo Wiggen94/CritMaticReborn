@@ -1,0 +1,1 @@
+-- (Spanish) Localization file for esES clients.

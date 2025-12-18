@@ -1,0 +1,32 @@
+# Claude Code
+.claude/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Node (if using build tools)
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Archives (don't commit packaged releases)
+*.zip
+*.rar
+*.7z
