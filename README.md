@@ -65,9 +65,6 @@ This is a modernized fork of the original [CritMatic](https://www.curseforge.com
 
 ## Screenshots
 
-### Alert Notifications
-![Crit Alert](https://i.ibb.co/4sGDB5f/Crit.png)
-
 ### Crit Log Window
 ![Crit Log](https://i.ibb.co/H77Tq3K/Image-11-19-23-at-10-57-AM.jpg)
 
