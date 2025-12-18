@@ -9,7 +9,7 @@
 ## DefaultState: enabled
 ## SavedVariablesPerCharacter: CritMaticData CritMaticDB14 CritMatic_ignoredSpells
 ## OptionalDeps: ElvUI
-## X-Curse-Project-ID:
+## X-Curse-Project-ID: 1408037
 ## X-WoWI-ID:
 ## X-Wago-ID:
 
