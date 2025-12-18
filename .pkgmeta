@@ -1,0 +1,14 @@
+package-as: CritMatic
+
+ignore:
+  - README.md
+  - CHANGE_LOG.md
+  - .gitignore
+  - Images
+  - critmatic_400_v1.png
+  - Libs/README.md
+  - Libs/CHANGES.txt
+  - Libs/changelog.txt
+  - "*.md"
+
+enable-nolib-creation: no
