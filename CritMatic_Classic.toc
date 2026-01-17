@@ -1,6 +1,6 @@
 ## Interface: 50401
 ## Title: CritMatic Reborn
-## Version: 0.5.0.0
+## Version: 0.5.1.0
 ## Author: Croome
 ## X-Original-Author: InfiniteLoopAlchemist
 ## X-License: GNU GPL3

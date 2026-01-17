@@ -10,15 +10,19 @@ local _, addon = ...
 local tocVersion = select(4, GetBuildInfo())
 local IS_RETAIL = tocVersion >= 100000
 local IS_CLASSIC_ERA = tocVersion < 20000
-local IS_CATA_CLASSIC = tocVersion >= 40000 and tocVersion < 50000
+local IS_TBC_CLASSIC = tocVersion >= 20000 and tocVersion < 30000  -- TBC Anniversary: 20505
 local IS_WRATH_CLASSIC = tocVersion >= 30000 and tocVersion < 40000
+local IS_CATA_CLASSIC = tocVersion >= 40000 and tocVersion < 50000
+local IS_MOP_CLASSIC = tocVersion >= 50000 and tocVersion < 60000
 
 -- Export version info
 CritMaticAPI = {
     IS_RETAIL = IS_RETAIL,
     IS_CLASSIC_ERA = IS_CLASSIC_ERA,
-    IS_CATA_CLASSIC = IS_CATA_CLASSIC,
+    IS_TBC_CLASSIC = IS_TBC_CLASSIC,
     IS_WRATH_CLASSIC = IS_WRATH_CLASSIC,
+    IS_CATA_CLASSIC = IS_CATA_CLASSIC,
+    IS_MOP_CLASSIC = IS_MOP_CLASSIC,
     TOC_VERSION = tocVersion,
 }
 
@@ -290,10 +294,14 @@ local function PrintVersionInfo()
     local versionStr = "Retail"
     if IS_CLASSIC_ERA then
         versionStr = "Classic Era"
+    elseif IS_TBC_CLASSIC then
+        versionStr = "TBC Classic"
     elseif IS_WRATH_CLASSIC then
         versionStr = "Wrath Classic"
     elseif IS_CATA_CLASSIC then
         versionStr = "Cataclysm Classic"
+    elseif IS_MOP_CLASSIC then
+        versionStr = "MoP Classic"
     end
     -- Uncomment for debugging:
     -- print("CritMatic: Running on " .. versionStr .. " (TOC: " .. tocVersion .. ")")

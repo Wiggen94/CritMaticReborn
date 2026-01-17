@@ -1,6 +1,12 @@
 local L = LibStub("AceLocale-3.0"):GetLocale("CritMatic")
 local AceConsole = LibStub("AceConsole-3.0")
 
+-- Use API wrapper for cross-version compatibility
+local API = CritMaticAPI or {}
+local GetSpellInfo = API.GetSpellInfo or GetSpellInfo
+local GetSpellName = API.GetSpellName or function(id) return (GetSpellInfo(id)) end
+local GetSpellTexture = API.GetSpellTexture or function(id) local _, _, icon = GetSpellInfo(id) return icon end
+
 function toggleCritMaticCritLog()
     local db = Critmatic.db.profile
     local sizePos = Critmatic.db.profile.critLogWidgetPos

@@ -4,6 +4,26 @@
 
 ---
 
+## [v0.5.1.0-release] - 01/17/2026
+
+### TBC Anniversary Support
+
+#### New Features
+- Added TBC Classic Anniversary support (Interface 20505)
+- New `CritMatic_TBC.toc` file for TBC Anniversary client
+
+#### Bug Fixes
+- Fixed `GetSpellInfo` error causing addon to fail on TBC Anniversary
+- Fixed `/cm` slash command not working due to initialization errors
+- CritLog.lua now uses API compatibility wrapper for spell info lookups
+
+#### Technical Changes
+- Added `IS_TBC_CLASSIC` and `IS_MOP_CLASSIC` version detection to CritMaticAPI
+- CritLog.lua now properly uses CritMaticAPI wrapper for cross-version compatibility
+- Improved API fallback handling for clients using `C_Spell.GetSpellInfo`
+
+---
+
 ## [v0.5.0.0-release] - 12/16/2025
 
 ### Initial Release of CritMatic Reborn
